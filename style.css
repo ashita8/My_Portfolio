@@ -1,16 +1,19 @@
 #sticky-sidebar {
 	background-color: black; height: auto; position: fixed; overflow-x: hidden;
 	top: 0; /* Stay at the top */
-  left: 0;
-height: 100%;
+	left: 0;
+	height: 100%;
+	margin-right: 75%;
 }
+
 #main {	
-	margin-left: 200px;
-	background-color: #191414;
-color: white;
-height: 100%;
-  background-color: #191414; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to top, #191414 10%,#191414  ,#330080 );
+	margin-bottom: 5%; 
+	margin-left: 15%;
+		background-color: #191414;
+	color: white;
+	height: 100%;
+	background-color: #191414; /* For browsers that do not support gradients */
+	background-image: linear-gradient(to top, #191414 10%,#191414  ,#330080 );
 }
 
 .button {
@@ -98,20 +101,36 @@ footer {
 #customRange1{
 	size: 20px;
 }
+/* @media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	  display: block;
+	  margin-bottom: 20px;
+	}
+  } */
 
+  
 @media only screen and (max-width: 744px) {
 #main {	
-	margin-left: 50px;
+	margin-left: 10%;
 }
 .heading{
 	margin-top: 20%;
 }
-.container button{
+.container-fluid button{
 display: none;
 margin-top: 0px;
 }
-
+.container-fluid #one{
+	position: relative;
+}
 footer {
    display: none;
 }
+}
+
+  
+a{
+	color: white;
+	text-decoration: none;
 }

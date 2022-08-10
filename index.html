@@ -13,42 +13,44 @@
 <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <title>Portfolio</title>
           <link rel="shortcut icon" href="images/Spotify_Icon_RGB_Green.png">
-
-
   </head>
   <body>
 
-    <div class="container-fluid">
+<div class="container-fluid">
     <div class="row">
         <div class="col-2" id="sticky-sidebar" >
 
               <img style="padding-top: 6px; " src="images/Spotify_Logo_RGB_White.png" >
                 <ul class="list-unstyled" class="sidebar">
     <li style="margin-top: 20px; background-color: #333333;"><i class="fas fa-home fa-2x" style="background-color: #333333;"></i>  Home</li>
-    <li style="margin-top: 20px;"><i class="fas fa-search fa-2x"></i>  Search</li>
-    <li style="margin-top: 20px;"><i class="fas fa-headphones-alt fa-2x"></i>  Library</li>
+    <li style="margin-top: 20px;"><i class="fas fa-search fa-2x"></i><a style="color: white; text-decoration: none;" href="https://www.linkedin.com/in/ashita-aswal-0ab6381aa/"> LinkedIn </a></li>
+    <li style="margin-top: 20px;"><i class="fas fa-headphones-alt fa-2x"></i>  
+      <a style="color: white; text-decoration: none;" href = "mailto:ashitaaswal8@gmail.com?subject = Portfolio&body = Message">
+        Email me
+        </a>
+    </li>
 
 
-<li style="margin-top: 35px;"> <i class="fas fa-plus-square fa-2x"></i>Create Playlist</li>
-<li style="margin-top: 20px;"><i class="fas fa-heart fa-2x"></i> Liked Songs</li>
-<li style="margin-top: 20px;"><i class="fas fa-podcast fa-2x"></i> Your Episodes</li>
+<li style="margin-top: 35px;"> <i class="fas fa-plus-square fa-2x"></i>Phone: <a style="color: white; text-decoration: none;" href="tel:9528599235">9528599235</a></li>
+<li style="margin-top: 20px;"><i class="fas fa-heart fa-2x"></i><a style="color: white; text-decoration: none;" href="https://leetcode.com/ashitaaswal/"> Leetcode</a> </li>
+<li style="margin-top: 20px;"><i class="fas fa-podcast fa-2x"></i> MY INTERESTS</li>
 
-<!-- <div class="scroll" >
+<div class="scroll" >
   <ul class="list-unstyled">
-    <li>wddn</li>
-    <li>sc</li>
-    <li>csc</li>
-    <li>dsce</li>
-    <li>wddn</li>
-    <li>sc</li>
-    <li>csc</li>
-    <li>dsce</li>
-    <li>wddn</li>
-    <li>sc</li>
-    <li>csc</li>
-    <li>dsce</li>
+    <li>Drawing</li>
+    <li>Digital Drawing </li>
+    <li><a target="_blank" href="https://www.instagram.com/ashita_aswal/">instagram(for drawings) </a></li>
+    <li>Youtube (Content Creation)</li>
+    <li><a target="_blank" href="https://www.youtube.com/watch?v=sE4vHXYfmsU">Youtube</a></li>
+    <li>Dancing</li>
+    <li>Editing videos</li>
+    <li>Editing Pictures</li>
+    <li>Creating websites</li>
+    <li>Coding</li>
+    <li>Reading</li>
+    <li>Watching series</li>
   </ul>
-</div>  -->
+</div> 
 </ul>
         </div>
 
@@ -68,13 +70,13 @@
 <div class="col">
   <div class="dropdown">
   <a class="btn btn-dark dropdown-toggle btn-sm" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-    <i class="fas fa-user-circle"></i> Ashita
+    <i class="fas fa-user-circle"></i> Ashita Aswal
   </a>
 
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <li><a class="dropdown-item" href="#">Account <i class="fas fa-external-link-alt" style="margin-left:10px;"></i></a></li>
-    <li><a class="dropdown-item" href="#">Profile <i class="fas fa-external-link-alt" style="margin-left:20px;"></i></a></li>
-    <li><a class="dropdown-item" href="#">Upgrade</a></li>
+    <li><a class="dropdown-item" target="_blank" href="https://uttaranchaluniversity.ac.in/">B.Tech(2019-23) <i class="fas fa-external-link-alt" style="margin-left:10px;"></i></a></li>
+    <li><a class="dropdown-item" target="_blank" href="https://drive.google.com/file/d/1CtNPPZCr_01eHJenZNyk4Ws25Iv1IU5R/view?usp=sharing">  Resume <i class="fas fa-external-link-alt" style="margin-left:20px;"></i></a></li>
+    <li><a class="dropdown-item" href="https://github.com/ashita8">Github<i class="fas fa-external-link-alt" style="margin-left:20px;"></i></a></li></li>
   </ul>
 </div>
 </div>
@@ -86,7 +88,25 @@
 <div class="container" style="margin-top: 5%;" >
   <div class="row py-2">
     <div class="col" style="position: relative;">
-      <h2 class="heading"><b> Morning</b></h2>
+
+      <h2 class="heading"><b>
+        <script type="text/javascript"> //js code for greetings
+          document.write("<font size=+3 style='color: white;'>");
+          var day = new Date();
+          var hr = day.getHours();
+          if (hr >= 0 && hr < 12) {
+              document.write("Good Morning!");
+          } else if (hr == 12) {
+              document.write("Good Noon!");
+          } else if (hr >= 12 && hr <= 17) {
+              document.write("Good Afternoon!");
+          } else {
+              document.write("Good Evening!");
+          }
+          document.write("</font>");
+      </script>
+      </b></h2>
+
     </div>
   </div>
 </div>
@@ -96,45 +116,49 @@
 
 <!--new card area-->
 
-<div class="container">
+<div class="container-fluid">
   <div class="row py-2">
-    <div class="col" style="width: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center; margin-right: 20px;">
+    <div class="col mx-auto" style="width: auto; max-height: 20rem; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;">
        <div class="row g-2">
         <div class="col mx-auto" style="height: auto; width: 100%;">
           <img src="images/liked.png" class="img-fluid">
         </div>
         <div class="col mx-auto" style=" padding-top: 10%; padding-left: 5%;">
-          <h5>Liked Songs</h5>
+          <h5>Technical Skills</h5>
         </div>
         <div class="col" style="padding-top:10%;">
-        <button class="button button5"> <i class="fas fa-play"></i> </button></div>
+        <button class="button button5"> <i class="fas fa-play"></i> </button>
+      </div>
       </div>
     </div>
-    <div class="col"  style="width: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center; margin-right: 20px;">
+    <div class="col mx-auto" style="width: auto; max-height: 20rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;">
       <div class="row g-2">
         <div class="col mx-auto" style="height: auto; width: 100%;">
-          <img src="images/bp1.jpg">
+          <img class="img-fluid" src="images\cpp.png">
         </div>
         <div class="col mx-auto" style=" padding-top: 10%; padding-left: 5%;">
-          <h6>Black pink in your area</h6>
+          <h5>C plus plus</h5>
         </div>
         <div class="col" style="padding-top:10%;">
-        <button class="button button5"><i class="fas fa-play"></i></button></div>
+          <a target="_blank" href="https://github.com/ashita8/DSA-codes">
+              <button class="button button5"><i class="fas fa-play"></i></button>
+          </a> 
+        </div>
       </div>
     </div>
-    <div class="col"  style="width: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;">
+    <div class="col mx-auto" style="width: auto; max-height: 20rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;">
       <div class="row g-2">
         <div class="col mx-auto" style="height: auto; width: 100%;">
-          <img src="images/bts2.jpg">
+          <img src="images/html1.png">
         </div>
         <div class="col mx-auto" style=" padding-top: 10%; padding-left: 5%;">
-          <h6>Love Yourself</h6>
+          <h5>HTML5, CSS3</h5>
         </div>
         <div class="col mx-auto"  style="padding-top:10%;">
         <button class="button button5"><i class="fas fa-play"></i></button></div>
@@ -144,17 +168,17 @@
   </div>
 
 <!--new card area 2-->
-<div class="container">
+<div class="container-fluid">
   <div class="row py-3">
     <div class="col"  style="width: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center; margin-right: 20px;">
        <div class="row g-2">
         <div class="col mx-auto" style="height: auto; width: 100%;">
-          <img src="images/ts2.jpg" class="img-fluid rounded-start" style="height: 80px; width: 100%;">
+          <img src="images/sql.jpg" class="img-fluid rounded-start" style="height: 80px; width: 100%;">
         </div>
         <div class="col mx-auto" style=" padding-top: 10%; padding-left: 5%;">
-          <h6>Loving you is red</h6>
+          <h6>My SQL</h6>
         </div>
         <div class="col" style="padding-top:10%;">
         <button class="button button5"><i class="fas fa-play"></i></button></div>
@@ -165,13 +189,15 @@
   text-align: center; margin-right: 20px;">
       <div class="row g-2">
         <div class="col mx-auto" style="height: auto; width: 100%;">
-          <img src="images/bts3.jpg" class="img-fluid rounded-start" style="height: 80px; width: 100%;">
+          <img src="images/ml.png" class="img-fluid rounded-start" style="height: 80px; width: 100%;">
         </div>
         <div class="col mx-auto" style=" padding-top: 10%; padding-left: 5%;">
-          <h6>Permission to dance</h6>
+          <h6>Machine Learning</h6>
         </div>
         <div class="col" style="padding-top:10%;">
+      <a href="https://movie-recommender-system-ashi.herokuapp.com/" target="_blank">
         <button class="button button5"><i class="fas fa-play"></i></button></div>
+      </a>  
       </div>
     </div>
     <div class="col"  style="width: auto;
@@ -179,13 +205,14 @@
   text-align: center;">
       <div class="row g-2">
         <div class="col mx-auto" style="height: auto; width: 100%;">
-          <img src="images/bp2.jpg" class="img-fluid rounded-start" style="height: 80px; width: 100%;">
+          <img src="images/py.png" class="img-fluid rounded-start" style="height: 80px; width: 100%;">
         </div>
         <div class="col mx-auto" style=" padding-top: 10%; padding-left: 5%;">
-          <h6>Wistle</h6>
+          <h6>Python</h6>
         </div>
         <div class="col" style="padding-top:10%;">
-        <button class="button button5"><i class="fas fa-play"></i></button></div>
+     <a target="_blank" href="https://github.com/ashita8/mINI-project" >
+     <button class="button button5"><i class="fas fa-play"></i></button></div></a> 
       </div>
     </div>
         
@@ -199,7 +226,7 @@
 <div class="container">
   <div class="row py-3">
     <div class="col" style="position: relative; color: white;">
-      <h2><b>Show You might like</b></h2>
+      <h2><b>My Experince and Projects</b></h2>
     </div>
   </div>
 </div>
@@ -207,121 +234,180 @@
 <!--new card area-->
 <div class="container-fluid">
   <div class="row g-4 py-5">
-    <div class="col mx-auto" style="width: auto; max-height: 20rem;
+    <div class="col mx-auto" style="width: auto; max-height: 30rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;">
       <div class="card-transparent" >
-  <img src="images/bp1.jpg" class="card-img-top" alt="...">
+  <img style="height: 10rem;" src="images/fe.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text">
-      Black pink in your area<br>
-      New Album
+      Web Developer<br>
+      ACP IT Zone  <br>
+     
+       Worked on creation of multiple websites for the company.
+        Worked as a Frontend developer with Bootstrap 5, HTML 5, CSS 3 and PHP
+          to create Ecommerce website, E-learning platform for the company and School website
+          <a href= "https://shahinternationalschool.com/" target="_blank">Link </a>
     </p>
   </div>
 </div>
     </div>
 
-<div class="col mx-auto" style="width: auto; max-height: 20rem;
+<div class="col mx-auto" style="width: auto; max-height: 30rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;">
       <div class="card-transparent" >
-  <img src="images/ted.jpg" class="card-img-top" alt="...">
+  <img style="height: 10rem;" src="images/acc.png" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text">
-    Lates ted poadcast<br>
-    Listen now the latest poadcast</p>
+      Developer Program<br>
+      Accenture <br>
+    A program by accenture to give us experience of working with actual companies. 
+    Completed program in one day which contain architecture, testing,programming, 
+    security and AI modules.
+</p>
   </div>
 </div>
     </div>
 
-    <div class="col mx-auto" style="width: auto; max-height: 20rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;">
-      <div class="card-transparent" >
-  <img src="images/bts2.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text">
-      Butter<br>
-      Listen to top tending music
-  </p>
-  </div>
-</div>
+    <div class="col mx-auto" style="width: auto; max-height: 30rem;;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;">
+        <div class="card-transparent" >
+    <img style="height: 10rem;" src="images/ml.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">
+        Movie Recommendation System (01/2022 - 02/2022)
+        <br>
+        This project is creted using python deployed using Heroke platform and
+        Streamlit is used to provide web interface. 
+       <a href= "https://movie-recommender-system-ashi.herokuapp.com" target="_blank">Profile</a></p>
     </div>
+  </div>
+      </div>
+      <div class="col mx-auto" style="width: auto; max-height: 30rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      text-align: center;">
+          <div class="card-transparent" >
+      <img style="height: 10rem;" src="images/tcs.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">
+          Automate detection of different emotions from textual
+    comments and feedback (07/2022 - 08/2022)<br>
+    Different types of emotions such as happy,anger,sadness are detected
+    and classified from the dataset of comments( 21459, 2) by 
+    using Naive bayes and logistic regression.
+              <a href= "https://github.com/ashita8/TCS-ION-RIO-4" target="_blank">Link </a>
+        </p>
+      </div>
+    </div>
+        </div>
 
-    <div class="col mx-auto" style="width: auto; max-height: 20rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;">
-      <div class="card-transparent" >
-  <img src="images/ts2.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text">
-    Lover's<br>
-    Lover's out now</p>
-  </div>
-</div>
-    </div>
+
+
   </div>
 </div>
 
 <!--new card area-->
 <div class="container-fluid">
   <div class="row g-4 py-5">
-    <div class="col mx-auto" style="width: auto; max-height: 20rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;">
-      <div class="card-transparent" >
-  <img src="images/bp1.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text">
-      <h6>Black pink in your area</h6>
-      <p>New Album</p>
+    <div class="col mx-auto" style="width: auto; max-height: 30rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;">
+        <div class="card-transparent" >
+    <img style="height: 10rem;" src="images/git.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">
+        My github profile<br>
+        Consist of my proejct work.      <br>
+        <a href= "https://github.com/ashita8" target="_blank">Project link</a></p>
     </p>
+    </div>
+  </div>
+      </div>
+
+
+<div class="col mx-auto" style="width: auto; max-height: 30rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;">
+      <div class="card-transparent" >
+  <img style="height: 10rem;" src="images/uucss.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">
+        President(2022)<br>
+      UU-CSC <br>
+    uttaranchaluniversity Computer Science Club (2017-present).
+    <br> Website created by me:<br>
+    <a href= "https://uu-css.web.app/" target="_blank">UU-CSC Website</a>   
+</p>
   </div>
 </div>
     </div>
 
- 
-    <div class="col mx-auto" style="width: auto; max-height: 20rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;">
-      <div class="card-transparent" >
-  <img src="images/ted.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text">
-    <h6>Lates ted poadcast</h6>
-    <p>Listen now the latest poadcast</p></p>
-  </div>
-</div>
+    <div class="col mx-auto" style="width: auto; max-height: 30rem;;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;">
+        <div class="card-transparent" >
+    <img style="height: 10rem;" src="images/cn.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">
+        Coding Ninjas profile
+        <br>
+        Oops certificate and acheived Specialist level.
+       <a href= "https://www.codingninjas.com/codestudio/profile/6bfe8259-28a9-42b6-b556-5d6532a8a00f" target="_blank">Profile </a></p>
     </div>
+  </div>
+      </div>
 
-    <div class="col mx-auto" style="width: auto; max-height: 20rem;
+    <div class="col mx-auto" style="width: auto; max-height: 30rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;">
       <div class="card-transparent" >
-  <img src="images/bts2.jpg" class="card-img-top" alt="...">
+  <img style="height: 10rem;" src="images/lc.png" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text">
-      <h6>Butter</h6>
-      <p>Listen to top tending music</p>
+      My leetcode profile<br>
+      Mostly code in cpp.
+<a href= "https://leetcode.com/ashitaaswal/" target="_blank">Profile </a>
+
   </p>
   </div>
 </div>
     </div>
 
-    <div class="col mx-auto" style="width: auto; max-height: 20rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;">
-      <div class="card-transparent" >
-  <img src="images/ts2.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text">
-    <h6>Lover's</h6>
-    <p>Lover's out now</p></p>
+
   </div>
 </div>
+
+
+
+
+<!--new card area large cards-->
+<div class="container">
+  <div class="row py-3">
+    <div class="col" style="position: relative; color: white;">
+      <h2><b>Connect with me: </b></h2>
     </div>
   </div>
 </div>
+
+<!--new card area-->
+
+<div class="container">
+  <div class="row py-3 g-4" style="max-width: 100%; max-height:10%;">
+    <div class="col">
+     <a target="_blank" href="https://www.linkedin.com/in/ashita-aswal-0ab6381aa/"> <img style="border-radius: 50%; height: auto; max-width: 30%;"  src="images/ll.png"></a>
+    </div>
+    <div class="col">
+      <a target="_blank" href="https://www.instagram.com/ashita_aswal/">  <img style="border-radius: 50%; height: auto; max-width: 30%;"  src="images/ig.jpg"></a>
+    </div>
+    <div class="col">
+      <a target="_blank" href="https://www.youtube.com/watch?v=sE4vHXYfmsU">  <img style="border-radius: 50%; height: auto; max-width: 30%;"  src="images/yt.png"></a>
+    </div>
+  </div>
+</div>
+
+
 </div> <!-- main end -->
         
         </div>
